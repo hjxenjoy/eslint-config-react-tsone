@@ -9,26 +9,7 @@ module.exports = {
     "prettier",
   ],
   "rules": {
-    "prettier/prettier": ["error", {
-      "parser": "typescript",
-      "printWidth": 80,
-      "tabWidth": 2,
-      "useTabs": false,
-      "singleQuote": true,
-      "semi": false,
-      "trailingComma": "es5",
-      "bracketSpacing": true,
-      "arrowParens": "avoid",
-      "endOfLine": "auto",
-      "overrides": [
-        {
-          "files": ["*.css", "*.less", "*.scss"],
-          "options": {
-            "singleQuote": false,
-          },
-        },
-      ],
-    }],
+    "prettier/prettier": "error",
     "react/jsx-filename-extension": ["warn", {
       "extensions": [".ts", ".tsx"]
     }]
