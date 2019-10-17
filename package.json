@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-react-tsone",
+  "version": "1.0.0",
+  "description": "eslint config for create-react-app with typescript",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
+    "release-it": "^12.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "github": {
+    "release": true
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjxenjoy/eslint-config-react-tsone.git"
+  },
+  "author": "Jinxin Hu <hjxenjoy@gmail.com> (https://hujin.xin)",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/hjxenjoy/eslint-config-react-tsone/issues"
+  },
+  "homepage": "https://github.com/hjxenjoy/eslint-config-react-tsone#readme"
+}

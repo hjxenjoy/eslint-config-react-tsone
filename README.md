@@ -1,2 +1,9 @@
 # eslint-config-react-tsone
-react app eslint config for typescript
+
+eslint config for create-react-app with typescript
+
+```json
+{
+  "extends": "react-tsone"
+}
+```
