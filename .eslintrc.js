@@ -12,7 +12,10 @@ module.exports = {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": ["warn", {
       "extensions": [".ts", ".tsx"]
-    }]
+    }],
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0,
+    "react/button-has-type": 0
   },
   "settings": {
     "import/resolver": {
