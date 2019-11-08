@@ -11,7 +11,7 @@ yarn add -D eslint-config-react-tsone
 
 ## Configuration
 
-### add eslint config file
+### Add eslint config file
 
 1. remove eslintConfig in `package.json`
 2. create `.eslintrc` file in root directory
@@ -22,7 +22,7 @@ yarn add -D eslint-config-react-tsone
 }
 ```
 
-### add prettier config file
+### Add prettier config file
 
 create `.prettierrc` file into root directory
 
@@ -49,12 +49,18 @@ create `.prettierrc` file into root directory
 }
 ```
 
-### enable vscode support autoFixOnSave
+### Add eslint autoFixOnSave & ts file error tips
 
-add code below into `.vscode/settings.json`
+Add code below into `.vscode/settings.json`
 
 ```json
 {
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
 ```
