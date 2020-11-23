@@ -12,6 +12,15 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
     "react/button-has-type": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "warn",
+    "import/extensions": [
+      "error",
+      {
+        "ts": "ignorePackages",
+        "tsx": "ignorePackages"
+      }
+    ],
   },
   settings: {
     "import/resolver": {
