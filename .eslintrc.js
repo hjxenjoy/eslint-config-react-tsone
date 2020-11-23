@@ -14,6 +14,8 @@ module.exports = {
     "react/button-has-type": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "warn",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "import/extensions": [
       "error",
       {
