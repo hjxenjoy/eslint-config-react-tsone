@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-tsone",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "eslint config for create-react-app with typescript",
   "main": "index.js",
   "dependencies": {
