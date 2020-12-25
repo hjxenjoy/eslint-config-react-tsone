@@ -17,6 +17,9 @@
     "cz-conventional-changelog": "^3.0.2",
     "release-it": "^12.3.5"
   },
+  "peerDependencies": {
+    "eslint-config-react-app": "^6.0.0"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
