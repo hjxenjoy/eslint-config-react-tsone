@@ -1,12 +1,21 @@
 # eslint-config-react-tsone
 
-eslint config for create-react-app with typescript
+eslint config for [eslint-config-react-app](https://www.npmjs.com/package/eslint-config-react-app) with typescript
 
 ## Installation
 
 ```sh
+# step 1.
 npm install --save-dev eslint-config-react-tsone
+# or
 yarn add -D eslint-config-react-tsone
+
+# step 2 (if you didn't install react-scripts)
+npx install-peerdeps --dev eslint-config-react-app
+# and
+npm install --save-dev eslint-config-react-app typescript
+# or
+yarn add -D eslint-config-react-app typescript
 ```
 
 ## Configuration
