@@ -1,21 +1,14 @@
 # eslint-config-react-tsone
 
-eslint config for [eslint-config-react-app](https://www.npmjs.com/package/eslint-config-react-app) with typescript
+eslint config base on [eslint-config-react-app](https://www.npmjs.com/package/eslint-config-react-app) with typescript
 
 ## Installation
 
 ```sh
-# step 1.
+# use npm
 npm install --save-dev eslint-config-react-tsone
-# or
+# use yarn
 yarn add -D eslint-config-react-tsone
-
-# step 2 (if you didn't install react-scripts)
-npx install-peerdeps --dev eslint-config-react-app
-# and
-npm install --save-dev eslint-config-react-app typescript
-# or
-yarn add -D eslint-config-react-app typescript
 ```
 
 ## Configuration
@@ -58,7 +51,7 @@ create `.prettierrc` file into root directory
 }
 ```
 
-### Add eslint autoFixOnSave & ts file error tips
+### config eslint autoFixOnSave in vscode
 
 Add code below into `.vscode/settings.json`
 
@@ -69,3 +62,21 @@ Add code below into `.vscode/settings.json`
   }
 }
 ```
+
+### config format on save in webstorm
+
+**config eslint auto format**
+
+Webstorm > Preferences > Languages & Frameworks > Javascript > Prettier
+
+Run for files: `{**/*,*}.{js,ts,jsx,tsx}`
+
+[x] On save
+
+**config prettier auto format**
+
+Webstorm > Preferences > Languages & Frameworks > Javascript > Code Quality Tools
+
+Automatic Eslint configuration
+
+[x] Run eslint --fix on save

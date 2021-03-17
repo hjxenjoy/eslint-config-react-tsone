@@ -4,21 +4,23 @@
   "description": "eslint config for create-react-app with typescript",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^7.14.0",
+    "@babel/eslint-parser": "^7.13.10",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "confusing-browser-globals": "^1.0.10",
+    "eslint": "^7.22.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.2.0"
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.0.2",
-    "release-it": "^12.3.5"
-  },
-  "peerDependencies": {
-    "eslint-config-react-app": "^6.0.0"
+    "release-it": "^14.4.1",
+    "typescript": "^4.2.3"
   },
   "config": {
     "commitizen": {
