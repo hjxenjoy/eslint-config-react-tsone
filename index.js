@@ -1,7 +1,6 @@
 const restrictedGlobals = require('confusing-browser-globals');
 
 module.exports = {
-  root: true,
   parser: "@babel/eslint-parser",
   extends: ["prettier", "prettier/react"],
   plugins: ['react', 'import', 'jsx-a11y', 'react-hooks', "prettier"],
@@ -9,7 +8,6 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
-    jest: true,
     node: true,
   },
   parserOptions: {
