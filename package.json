@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-react-tsone",
   "version": "4.0.3",
-  "description": "eslint config for create-react-app with typescript",
+  "description": "eslint config base on create-react-app with typescript",
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.13.10",
